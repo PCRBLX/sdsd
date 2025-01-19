@@ -1,4 +1,4 @@
- local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+        local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
  
 local Window = Rayfield:CreateWindow({
    Name = "📜Shindo Life Script📜",
@@ -35,12 +35,3 @@ local Button = MainTab:CreateButton({
     loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Universal-ESP-Script-mobile-11025") )()
    end,
 })
-      end, 
-   })
-
-   local Button = gameTab:CreateButton({
-      Name = "Auto Farms And Other Farms",
-      Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/reavscripts/sl2_autofarm/main/main.lua", true))()
-      end,
-   })
